@@ -1,32 +1,6 @@
 <a name="readme-top">Leaderboard</a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="./astroboy.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -46,25 +20,20 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-Leaderboard uses promises to make **GET** and **POST** requests to an **API** endpoint and render the data, allowing the user tu submit new scores.
-
-**[your_project__name]** is a...
+**Leaderboard** is a **SPA** that uses promises to make **GET** and **POST** requests to an **API** endpoint and render the data, allowing the user tu submit new scores.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,21 +44,16 @@ Leaderboard uses promises to make **GET** and **POST** requests to an **API** en
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://https://html5.org//">HTML 5</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS 3</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://pages.github.com/">GitHub Pages</a></li>
   </ul>
 </details>
 
@@ -99,9 +63,9 @@ Leaderboard uses promises to make **GET** and **POST** requests to an **API** en
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Display scores list rendered with JavaScript**
+- **webpack**
+- **ES6 modules**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,83 +83,61 @@ Leaderboard uses promises to make **GET** and **POST** requests to an **API** en
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+Clone this repo in your local environment and run:
+```sh
+ npm install
+```
+
+Make all your changes in the /src folder.
+Run:
+
+```sh
+ npm watch
+```
+
+to see your chanches live in the browser.
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
-### Setup
-
-Clone this repository to your desired folder:
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+Basic knowledge of JavaScript `async` functions nd `XMLHttp` requests.
 
 ### Usage
 
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+Submit a new score in the form. If the submition is successfull, you will see the score in the dashboard.
 
 ### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
+- Run
 
 ```sh
-  bin/rails test test/models/article_test.rb
+npx hint .
 ```
---->
 
-### Deployment
+to get an HTML review.
 
-You can deploy this project using:
-
-<!--
-Example:
+- Run
 
 ```sh
-
+npx stylelint "**/*.{css,scss}"
 ```
- -->
+
+to get a CSS review.
+
+- Run
+
+```sh
+npx lighthouse <URL>
+```
+to get a performance review.
+
+- Run 
+
+```sh
+npx eslint .
+```
+to get a JavaScript review.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +145,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+Alex Muñoz
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [astroboyReloaded](https://github.com/astroboyReloaded)
+- Twitter: [@astroboyReload](https://twitter.com/astroboyReload)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/astroboyreloaded/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +159,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- **GET request to API** to fetch the current data.
+- **POST request to API** to post a new score to the database.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +178,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
 
-If you like this project...
+If you like this project, please give me a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,27 +187,13 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
 
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+> Thanks to [Microverse](https://www.microverse.org/) for giving me a path to follow in this learning journey!
+> Thanks to my mates, who walk by and share they experiences and knowledge with me during this journey: you make this experience even more valuable!
+> Thanks to [GitHub](https://github.com/) for being so awesome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LICENSE -->
 
