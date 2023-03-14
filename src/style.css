@@ -10,7 +10,7 @@ main {
   align-items: center;
 }
 
-.scores {
+#scores {
   border: 1px solid black;
 }
 

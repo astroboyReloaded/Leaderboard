@@ -1,12 +1,6 @@
-import _ from 'lodash';
-import './style.css'
+import './style.css';
+import { renderScores } from './modules/store';
 
-function component() {
-    const element = document.createElement('div');
-
-    element.innerHTML = _.join(['Project', 'setup'], ' ');
-
-    return element;
-}
-
-document.body.appendChild(component());
+window.onload = () => {
+  renderScores();
+};
