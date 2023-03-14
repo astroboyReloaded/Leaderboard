@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+<a name="readme-top">Leaderboard</a>
 
 <!--
 HOW TO USE:
@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./astroboy.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Leaderborard</b></h3>
 
 </div>
 
@@ -60,9 +60,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+Leaderboard uses promises to make **GET** and **POST** requests to an **API** endpoint and render the data, allowing the user tu submit new scores.
 
 **[your_project__name]** is a...
 
