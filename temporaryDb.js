@@ -28,4 +28,4 @@ const Scores = [
     score: 42,
   },
 ];
-export { Scores };
+export default Scores;

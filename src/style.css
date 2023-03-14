@@ -10,13 +10,29 @@ main {
   align-items: center;
 }
 
-#scores {
-  border: 1px solid black;
-}
-
 #refresh-btn {
   margin: 9px;
   height: fit-content;
+}
+
+#scores {
+  border: 1px solid black;
+  padding: 0;
+}
+
+.scoresUl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.scoreLi {
+  display: flex;
+}
+
+.scoreLi:nth-child(even) {
+  background-color: gainsboro;
 }
 
 /****************** Add */
@@ -27,11 +43,12 @@ form {
 }
 
 ul {
+  margin: 0;
   padding: 0;
+  list-style: none;
 }
 
-li {
-  list-style: none;
+input {
   margin-block: 9px;
 }
 
