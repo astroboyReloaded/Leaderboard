@@ -109,7 +109,7 @@ Leaderboard uses promises to make **GET** and **POST** requests to an **API** en
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+[Live demo for Development branch](https://astroboyreloaded.github.io/Leaderboard/dist/)
 
 - [Live Demo Link](https://google.com)
 
