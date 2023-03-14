@@ -1,3 +1,40 @@
-body {
-  background-color: bisque;
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/**************** Scores */
+
+.scoresHeader {
+  display: flex;
+  align-items: center;
+}
+
+.scores {
+  border: 1px solid black;
+}
+
+#refresh-btn {
+  margin: 9px;
+  height: fit-content;
+}
+
+/****************** Add */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin-block: 9px;
+}
+
+#submit {
+  margin-left: auto;
 }
