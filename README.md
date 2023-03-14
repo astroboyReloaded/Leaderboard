@@ -75,8 +75,6 @@
 
 [Live demo for Development branch](https://astroboyreloaded.github.io/Leaderboard/dist/)
 
-- [Live Demo Link](https://google.com)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
