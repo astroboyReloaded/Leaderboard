@@ -1,3 +1,57 @@
-body {
-    background-color: bisque;
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+/**************** Scores */
+
+.scoresHeader {
+  display: flex;
+  align-items: center;
+}
+
+#refresh-btn {
+  margin: 9px;
+  height: fit-content;
+}
+
+#scores {
+  border: 1px solid black;
+  padding: 0;
+}
+
+.scoresUl {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.scoreLi {
+  display: flex;
+}
+
+.scoreLi:nth-child(even) {
+  background-color: gainsboro;
+}
+
+/****************** Add */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  margin-block: 9px;
+}
+
+#submit {
+  margin-left: auto;
 }

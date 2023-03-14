@@ -1,12 +1,17 @@
-import _ from 'lodash';
-import './style.css'
+import './style.css';
+import renderScores from './modules/renderScores.js';
+import submitScore from './modules/submitScore.js';
 
-function component() {
-    const element = document.createElement('div');
+const [refreshBtn, submitBtn] = document.getElementsByTagName('button');
 
-    element.innerHTML = _.join(['Project', 'setup'], ' ');
+window.onload = () => {
+  renderScores();
+};
 
-    return element;
-}
+refreshBtn.onclick = () => {
+  renderScores();
+};
 
-document.body.appendChild(component());
+submitBtn.onclick = (e) => {
+  submitScore(e);
+};
