@@ -10,7 +10,7 @@ const submitScore = async (e) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ user: name.value, score: score.value }),
-    }
+    },
   );
 };
 
