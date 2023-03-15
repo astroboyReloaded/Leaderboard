@@ -13,5 +13,5 @@ refreshBtn.onclick = () => {
 };
 
 submitBtn.onclick = (e) => {
-  submitScore(e);
+  submitScore(e).then(renderScores());
 };
