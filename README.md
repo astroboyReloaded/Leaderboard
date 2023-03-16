@@ -71,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-[Live demo for Development branch](https://astroboyreloaded.github.io/Leaderboard/dist/)
+[Live demo from Development branch](https://astroboyreloaded.github.io/Leaderboard/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
