@@ -8,21 +8,25 @@
   <script defer src="bundle.js"></script></head>
   <body>
     <header>
-      <h1>Leaderboard</h1>
+      <h1 class="main-title">Leaderboard</h1>
     </header>
     <main>
-      <article>
+      <article class="scoresContainer">
         <header class="scoresHeader">
-          <h1>Recent scores</h1>
+          <h1 class="scores-title">Recent scores</h1>
           <button id="refresh-btn" type="button">Refresh</button>
         </header>
         <main id="scores"></main>
       </article>
       <form action="">
-        <h2>Add your score</h2>
-        <ul>
-          <li><input type="text" placeholder="Your name" /></li>
-          <li><input type="text" placeholder="Your score" /></li>
+        <h2 class="scores-title">Add your score</h2>
+        <ul class="formUl">
+          <li class="user-li">
+            <input class="user-name" type="text" placeholder="Your name" />
+          </li>
+          <li>
+            <input class="user-score" type="text" placeholder="Score" />
+          </li>
         </ul>
         <button id="submit">Submit</button>
       </form>

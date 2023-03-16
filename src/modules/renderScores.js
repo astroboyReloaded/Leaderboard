@@ -6,10 +6,14 @@ const renderScores = async () => {
   )
     .then((response) => response.json())
     .then((data) => {
-      const Scores = data.result;
+      const Scores = Array.from(data.result);
+      Scores.sort((a, b) => b.score - a.score);
       scoresDiv.innerHTML = `<ul class="scoresUl">
     ${Scores.map(
-    (score) => `<li class="scoreLi">${score.user}: ${score.score}</li>`,
+    (score) => `<li class="scoreLi">
+          <label class="user">${score.user}:</label>
+          <input class="user-score" value="${score.score}" disabled>
+        </li>`,
   ).join('')}
   </ul>`;
     });
