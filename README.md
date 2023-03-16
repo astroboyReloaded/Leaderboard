@@ -64,6 +64,7 @@
 - **ES6 modules**
 - **GET request to API** to fetch the current data.
 - **POST request to API** to post a new score to the database.
+- **Style**.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +156,8 @@ Alex Muñoz
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Style**
+- **Save user name**
+- **Confirmation message for submited score**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
