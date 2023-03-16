@@ -5,7 +5,7 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: url('assets/images/field-background.jpg') 0 50% no-repeat;
+  background: url('images/field-background.jpg') 0 50% no-repeat;
   background-size: 100%;
   font-family: 'Chakra Petch', sans-serif;
   color: white;
